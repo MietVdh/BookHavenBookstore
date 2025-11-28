@@ -1,0 +1,113 @@
+/* html, body {
+    height: 100%;
+    margin: 0;
+} */
+
+body {
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 16px;
+    color: #131C26;
+    background-color: #FFF7EE;
+    /* display: flex;
+    flex-direction: column;
+    width: 100%; */
+}
+
+main {
+    margin: 3% 10%;
+    flex-grow: 1;
+}
+
+section {
+    margin-bottom: 3%;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2E4057;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: Comfortaa, Arial, sans-serif;
+    font-size: 15px;
+}
+
+header {
+    background-color: #C7B65E;
+    padding: 1% 5%;
+    color: #2E4057;
+    margin: 0;
+    width: 100%;
+}
+
+nav {
+    background-color: #C7B65E;
+}
+
+footer {
+    padding: 1% 5%;;
+    background-color: #C7B65E;
+}
+
+
+#store-name {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #2E4057;
+    display: inline-block;
+    padding-left: 2%;
+}
+
+#website-title {
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.nav-item {
+    font-family: Comfortaa, Arial, sans-serif;
+    font-size: 15px;
+    color: #2E4057;
+}
+
+.btn {
+    background-color: #EE583F;
+    margin-left: 5px;
+    border-color: #EE583F;
+}
+
+.nav-pills>.nav-item>.active {
+    background-color: #EE583F;
+    margin-left: 5px;
+    border-color: #EE583F;
+}
+
+.nav-pills .nav-link {
+    color: #131C26;
+    margin-left: 5px;
+}
+
+
+.row {
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+
+#footer-links ul, #social-media ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.total {
+    font-weight: bold;
+}
